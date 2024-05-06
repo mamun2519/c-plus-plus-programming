@@ -25,3 +25,11 @@ In C++, there are different types of variables (defined with different keywords)
 - char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
 - string - stores text, such as "Hello World". String values are surrounded by double quotes
 - bool - stores values with two states: true or false
+
+## C++ Data Types
+
+- boolean
+- char
+- int
+- float
+- double
