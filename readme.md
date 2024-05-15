@@ -49,3 +49,11 @@ c++ Provide 4 types operator
 - else
 - else if
 - switch
+
+## C++ Loops
+
+c++ Provide 3 types loop
+
+- For
+- do/while
+- while
