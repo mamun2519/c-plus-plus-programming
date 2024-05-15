@@ -57,3 +57,11 @@ c++ Provide 3 types loop
 - For
 - do/while
 - while
+
+c++ Function (Concept)
+
+- Function
+- Function Parameter
+- Function Argument
+- Function Overloading
+- Recursion
