@@ -84,3 +84,11 @@ Array Is Two Types
 
 - Single Dimensional or one dimensional array
 - Multidimensional Array
+
+## Accession Element in Dimensional Array
+
+- 0- Based Indexing
+
+```jsx
+array[index];
+```
