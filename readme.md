@@ -92,3 +92,8 @@ Array Is Two Types
 ```jsx
 array[index];
 ```
+
+## Array Operation
+
+- sizeof (Check Size)
+-
