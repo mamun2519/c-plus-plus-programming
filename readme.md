@@ -110,3 +110,8 @@ int main()
 }
 
 ```
+
+## Vectors In C++
+
+- Dynamic Array => &size when input / delete element
+- contours memory allocation
