@@ -121,7 +121,7 @@ int main()
 - Add Element
 
 ```jsx
-Vectors.push(element);
+Vectors.ush_back(element);
 ```
 
 - Insert element
@@ -140,4 +140,30 @@ Vectors.pop - back();
 
 ```jsx
 Vectors.esase(position);
+```
+
+-- All Element Delete
+
+```jsx
+Vectors.clear();
+```
+
+## All Example
+
+```jsx
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+      vector<int> v;
+      cout << "Size" << v.size() << endl;
+      cout << "Capacity" << v.capacity() << endl;
+      v.push_back(1);
+      cout << "Size" << v.size() << endl;
+      cout << "Capacity" << v.capacity() << endl;
+      v.pop_back();
+      v.resize(6);
+      return 0;
+}
 ```
