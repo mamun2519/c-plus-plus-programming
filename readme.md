@@ -116,16 +116,28 @@ int main()
 - Dynamic Array => &size when input / delete element
 - contours memory allocation
 
-```jsx
-// Example
-using namespace std;
-int main()
-{
- int array[] = {1, 2,3};
-      int size = sizeof(array)/sizeof(array[0]);
-      for(int i = 0; i<size;i++){
-            cout<<array[i]<<endl
-      }
-}
+## Basic Operations In Vectors
 
+- Add Element
+
+```jsx
+Vectors.push(element);
+```
+
+- Insert element
+
+```jsx
+Vectors.inset(position, element);
+```
+
+- Delete Element
+
+```jsx
+Vectors.pop - back();
+```
+
+-- Middle Element Remove
+
+```jsx
+Vectors.esase(position);
 ```
