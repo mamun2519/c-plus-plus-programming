@@ -3,21 +3,14 @@
 using namespace std;
 int main()
 {
-      vector<int> v(6);
-      for (int i = 0; i < v.size(); i++)
+      int array[] = {1, 2, 3, 4, 5, 6};
+      bool isSorted = true;
+      for (int i = 1; i < 6; i++)
       {
-            cin >> v[i];
-      }
-      cout << "Enter X:";
-      int x;
-      cin >> x;
-      int count = 0;
-      for (int i = 0; i < v.size(); i++)
-      {
-            if (v[i] > x)
+            if (array[i] <= array[i - 1])
             {
-                  count++;
+                  isSorted = false;
             }
       }
-      cout << count;
+      cout << isSorted;
 }
