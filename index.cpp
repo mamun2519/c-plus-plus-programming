@@ -3,12 +3,21 @@
 using namespace std;
 int main()
 {
-      vector<int> v;
-      for (int i = 0; i < 5; i++)
+      vector<int> v(6);
+      for (int i = 0; i < 6; i++)
       {
-            int element;
-            cin >> element;
-            v.push_back(element);
+            cin >> v[i];
       }
-      return 0;
+      cout << "Enter X:";
+      int x;
+      cin >> x;
+      int occurence = -1;
+      for (int i = 0; i < v.size(); i++)
+      {
+            if (v[i] == x)
+            {
+                  occurence = i;
+            }
+      }
+      cout << occurence << endl;
 }
