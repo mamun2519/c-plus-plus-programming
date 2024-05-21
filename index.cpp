@@ -4,12 +4,11 @@ using namespace std;
 int main()
 {
       vector<int> v;
-      cout << "Size" << v.size() << endl;
-      cout << "Capacity" << v.capacity() << endl;
-      v.push_back(1);
-      cout << "Size" << v.size() << endl;
-      cout << "Capacity" << v.capacity() << endl;
-      v.pop_back();
-      v.resize(6);
+      for (int i = 0; i < 5; i++)
+      {
+            int element;
+            cin >> element;
+            v.push_back(element);
+      }
       return 0;
 }
