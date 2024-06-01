@@ -265,3 +265,7 @@ int main()
       cout << isSorted;
 }
 ```
+
+## Prefix Sums : Array Patten
+
+- Giver An integers array 'a" retune the prefix sum/renning sum in the same array without creating a new array
