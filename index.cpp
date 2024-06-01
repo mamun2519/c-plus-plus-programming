@@ -1,16 +1,28 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+void runingSum(vector<int> &v)
+{
+      for (int i = 1; i < v.size(); i++)
+      {
+            v[i] += v[i - 1];
+      }
+}
 int main()
 {
-      int array[] = {1, 2, 3, 4, 5, 6};
-      bool isSorted = true;
-      for (int i = 1; i < 6; i++)
+      int n;
+      cin >> n;
+      vector<int> v;
+      for (int i = 0; i < n; i++)
       {
-            if (array[i] <= array[i - 1])
-            {
-                  isSorted = false;
-            }
+            int ele;
+            cin >> ele;
+            v.push_back(ele);
       }
-      cout << isSorted;
+      runingSum(v);
+      for (int i = 0; i < n; i++)
+      {
+            cout << v[i] << " ";
+      }
+      cout << endl;
 }
