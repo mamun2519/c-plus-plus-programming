@@ -300,3 +300,5 @@ int main()
       cout << endl;
 }
 ```
+
+## Basic Array related problem
