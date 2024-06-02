@@ -302,3 +302,5 @@ int main()
 ```
 
 ## Basic Array related problem
+
+- Given two verctors arr1[] and arr2[] of size m and n sorted in increasing order. Merge The two Arrays into a single sorted array of size m+ n
