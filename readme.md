@@ -303,10 +303,12 @@ int main()
 
 ## Basic Array related problem
 
-- Given two verctors arr1[] and arr2[] of size m and n sorted in increasing order. Merge The two Arrays into a single sorted array of size m+ n
+- Given two vectors arr1[] and arr2[] of size m and n sorted in increasing order. Merge The two Arrays into a single sorted array of size m+ n
 - example
 
 ```jsx
 input: (arr1 = [1, 2, 3]), (arr2 = [4, 5, 6]);
 outPut: arr = [1, 2, 3, 4, 5, 6];
 ```
+
+- Solution this problem
