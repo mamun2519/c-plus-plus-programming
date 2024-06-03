@@ -20,9 +20,4 @@ int main()
             v.push_back(ele);
       }
       runingSum(v);
-      for (int i = 0; i < n; i++)
-      {
-            cout << v[i] << " ";
-      }
-      cout << endl;
 }
