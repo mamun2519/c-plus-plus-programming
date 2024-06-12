@@ -322,3 +322,13 @@ outPut: arr = [1, 2, 3, 4, 5, 6];
 ```jsx
 int array [2],[3]={1,2,3, 4,5,6,7}
 ```
+
+## Taking 2d array as input
+
+```jsx
+for(int i =0;i<row;i++){
+      for(int j=0;j< columns ; j++){
+            cin >> array[i][j]
+      }
+}
+```
