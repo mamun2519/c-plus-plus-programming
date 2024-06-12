@@ -317,3 +317,8 @@ outPut: arr = [1, 2, 3, 4, 5, 6];
 
 - 2d array representation table
 - first index row and 2nd index column
+- example
+
+```jsx
+int array [2],[3]={1,2,3, 4,5,6,7}
+```
