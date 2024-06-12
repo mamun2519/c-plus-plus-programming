@@ -312,3 +312,5 @@ outPut: arr = [1, 2, 3, 4, 5, 6];
 ```
 
 - Solution this problem
+
+## 2D array of c++
