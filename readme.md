@@ -314,3 +314,6 @@ outPut: arr = [1, 2, 3, 4, 5, 6];
 - Solution this problem
 
 ## 2D array of c++
+
+- 2d array representation table
+- first index row and 2nd index column
